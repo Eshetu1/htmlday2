@@ -1,0 +1,38 @@
+.podd{
+    background-color: green;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.peven{
+    background-color: blueviolet;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.h1{
+    color: indigo;
+    font-size: 20px;
+    margin-left: 20;
+}
+table{
+width: 500px;
+margin-left: 15px;
+}
+th{
+    text-align: left;
+    color: gold;
+
+}
+table, th, td {
+    border: 1px solid violet ;
+}
+th, td{
+padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(odd){
+    background-color:whitesmoke;
+}
+
